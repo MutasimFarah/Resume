@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: #003B46;
+}
+
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.right-section{
+    grid-column: span 5;
+    height: 100%;
+    background-color: #07575B;
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: #66A5AD;
+}
+
+.left-content{
+    padding: 1rem 2rem;
+}
+
+.profile{
+    width: 100%;
+    border-bottom: 1px solid #07575B;
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #579198;
+}
+
+.name{
+    font-size: 2rem;
+    color: #e8f3f6;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2rem 0;
+}
+
+.career{
+    font-size: 1.2rem;
+    color: #C4DFE6;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+
+.main-title{
+    font-size: 1.rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: #c4dfe6ee;
+}
+
+.contact-info ul{
+    padding-left: 2rem 0;
+    list-style-type: none;
+
+}
+
+.contact-info ul li{
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;
+    color: #07575B;
+
+}
+
+.contact-info ul li i{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    color: #e8f3f6;
+}
+
+.skills-section ul{
+    padding-top: .1rem;
+}
+.skills-section ul li{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: .3rem;
+}
+
+.progress-bar{
+    width: 100%;
+    height: .4rem;
+    background-color: #C4DFE6;
+    position: relative;
+    border-radius: 12px;
+}
+
+.progress{
+    height: 100%;
+    position:absolute;
+    left: 0;
+    background-color: aquamarine;
+    border-radius: 12px;
+}
+
+.css-progress{
+    width: 80%;
+}
+
+.WP-progress{
+    width: 100%;
+}
+
+.ai-progress{
+    width: 88%;
+}
+
+.js-progress{
+    width: 0%;
+}
+
+.ps-progress{
+    width:40%;
+}
+
+.skill-tittle{
+    text-transform: uppercase;
+    color: #07575B;
+    font-size: 1rem;
+}
+
+.main-title{
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: #c4dfe6ee;
+}
